@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/abzal00/my-react-app.git/precache-manifest.c809fc3df91055046ae5dc0111467d73.js"
+  "/react-way-of-samurai/precache-manifest.6975e0d0b85936b00b7a36058051d662.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/abzal00/my-react-app.git/index.html", {
+workbox.routing.registerNavigationRoute("/react-way-of-samurai/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
